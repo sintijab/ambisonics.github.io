@@ -1,0 +1,26 @@
+{
+  "name": "ambisonics-lab",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^6.0.3",
+    "@fontsource-variable/cabin": "^5.0.14",
+    "@fontsource-variable/raleway": "^5.0.14",
+    "@fontsource/dm-serif-display": "^5.0.15",
+    "astro": "^3.3.1",
+    "cookie-parser": "^1.4.6",
+    "querystring": "^0.2.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "@types/request": "^2.48.10"
+  }
+}
