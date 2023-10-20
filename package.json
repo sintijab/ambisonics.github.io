@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@astrojs/node": "^6.0.3",
+    "@astrojs/sitemap": "^3.0.2",
     "@fontsource-variable/cabin": "^5.0.14",
     "@fontsource-variable/raleway": "^5.0.14",
     "@fontsource/dm-serif-display": "^5.0.15",
