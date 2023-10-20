@@ -1,0 +1,103 @@
+html,
+body,
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.bt {
+    font-size: 13px;
+    padding: 6px 24px;
+    z-index: 2;
+}
+
+video {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 0;
+    pointer-events: none;
+}
+
+canvas {
+    position: absolute;
+    z-index: 1;
+    background: transparent;
+}
+
+.canvas-btn {
+    z-index: 2;
+    display: none;
+    cursor: pointer;
+    align-items: flex-end;
+}
+
+.canvas-btn img {
+    padding: 0 .5rem 0 0;
+}
+
+.canvas-btn p {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem 1.5rem 0;
+    line-height: 1;
+}
+
+.controls {
+    display: none;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+@media (min-width: 783px) {
+    .controls {
+        align-items: flex-end;
+        flex-direction: row;
+    }
+}
+
+.controls h1,
+.controls p,
+.main-title h1 {
+    z-index: 2;
+    margin: 0 0.2rem !important;
+    text-align: left;
+    letter-spacing: normal;
+    font-weight: 400 !important;
+    color: white;
+}
+
+.main-title {
+    z-index: 2;
+    display: flex;
+    align-items: flex-end;
+    padding: 0.5rem;
+}
+
+@media (min-width: 783px) {
+    .main-title {
+        padding: 1rem 1rem 1.5rem 1rem;
+    }
+}
+
+.main-title a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.controls h1,
+.main-title h1 {
+    font-size: 28.8px !important;
+    line-height: 1.7;
+}
+
+video {
+    opacity: 1;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+}
